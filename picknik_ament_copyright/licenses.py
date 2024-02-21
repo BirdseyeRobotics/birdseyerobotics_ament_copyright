@@ -1,4 +1,4 @@
-# Copyright 2021 PickNik Inc.
+# Copyright 2024 Birds Eye Robotics Inc.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -10,7 +10,7 @@
 #      notice, this list of conditions and the following disclaimer in the
 #      documentation and/or other materials provided with the distribution.
 #
-#    * Neither the name of the PickNik Inc. nor the names of its
+#    * Neither the name of the Birds Eye Robotics nor the names of its
 #      contributors may be used to endorse or promote products derived from
 #      this software without specific prior written permission.
 #
@@ -32,4 +32,4 @@ from ament_copyright.licenses import read_license_data
 
 TEMPLATE_DIRECTORY = os.path.join(os.path.dirname(__file__), 'template')
 
-picknik_proprietary = read_license_data(TEMPLATE_DIRECTORY, 'PickNik Proprietary License', 'PickNik', 'picknik_proprietary')
+birdseyerobotics_proprietary = read_license_data(TEMPLATE_DIRECTORY, 'Birds Eye Robotics Proprietary License', 'Birds Eye Robotics', 'birdseyerobotics_proprietary')
